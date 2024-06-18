@@ -10,7 +10,7 @@ function generateQR(){
   else{
     qrText.classList.add('error');
     setTimeOut(()=> {
-      qrText.classList.remove('error')
+      qrText.classList.remove('error');
     },1000)
 
 
